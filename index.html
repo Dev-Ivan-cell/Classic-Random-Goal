@@ -1,17 +1,77 @@
-<doctype html>
-    <html>
-         <head>
-              <metacharset="utf-8">
-              <title>Classique de Ligue1</title>
-              <link rel="Stylesheet" type="text/css" href="style.css">
-         </head>
-         <body>
-                <div align="left"><img src="./assets/ligue1.png" width="300px" height="50px"><br><fieldset style="width:358px"><img src="./assets/om.png" width="100px" height="90px"><strong><big>OM<front color="#BFFF00">0-0</front>PSG</big></strong><img src="./assets/psg.png" width="150px" height="100px"></fieldset><br><table><tr><td></td><td>&nbsp<input value="00:02:00" type="time"></td></tr></table></div>
-                <div align="right"><fieldset style="width:210px"><img src="./assets/om.png" width="50px" height="40px"><display>Olympique de Marseille</display><br><img src="./assets/trophet.png" width="50px" height="40px"><img src="./assets/trophet.png" width="50px" height="40px"><img src="./assets/trophet.png" width="50px" height="40px"><b><big>+8</big></b><br><img src="./assets/psg.png" width="50px" height="40px"><display>Paris Saint-Germain</display><br><img src="./assets/trophet.png" width="50px" height="40px"></fieldset></div>
-            <nav></nav>
-            <div align="center"><nav><img src="./assets/ballon.png" width="100px" height="100px" type="button"><p>Random</p><p><big><strong><front color="#FFFFFF"><h1>10</h1></strong></big></front></p></nav></div>
-    
-        
+<!DOCTYPE html>
+<html lang="en">
 
-         </body>
-    </html>
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Ubuntu&display=swap" rel="stylesheet">
+
+     <link rel="stylesheet" href="./style.css">
+
+     <title>Classique de Ligue 1</title>
+</head>
+
+<body>
+     <div class="main-zone">
+          <div class="header-zone">
+               <div class="score-zone">
+
+                    <div class="sponsor-zone">
+                         <img class="sponsor-img" src="./assets/ligue1.png" alt="Competition">
+                    </div>
+
+                    <div class="display-zone bg-black radius">
+                         <img class="logo-team-xx" src="./assets/om.png" alt="OM">
+                         <p class="upper-p color-white">OM</p>
+                         <p class="bold-text color-yellow">0 - 0</p>
+                         <p class="upper-p color-white">PSG</p>
+                         <img class="logo-team-xx" src="./assets/psg.png" alt="PSG">
+                    </div>
+
+                    <div class="timer-zone">
+                         <p class="color-white bg-gray radius">01:36</p>
+                    </div>
+
+               </div>
+
+               <div class="stade-zone">
+                    <div class="rond"></div>
+               </div>
+
+               <div class="palmares-zone bg-black radius">
+                    <div class="title-zone">
+                         <img class="logo-team-m" src="./assets/om.png" alt="Olympique de Marseille">
+                         <p class="color-white lower-p">Olympique de Marseille</p>
+                    </div>
+
+                    <div class="palmares">
+                         <img class="icon" src="./assets/trophet.png" alt="Trophet">
+                         <img class="icon" src="./assets/trophet.png" alt="Trophet">
+                         <img class="icon" src="./assets/trophet.png" alt="Trophet">
+                         <p class="color-yellow bold-text">+8</p>
+                    </div>
+
+                    <div class="title-zone">
+                         <img class="logo-team-m" src="./assets/psg.png" alt="Paris Saint Germain">
+                         <p class="color-white lower-p">Paris Saint Germain</p>
+                    </div>
+
+                    <div class="palmares">
+                         <img class="icon" src="./assets/trophet.png" alt="Trophet">
+                    </div>
+               </div>
+          </div>
+
+          <div class="match-zone">
+               <img class="icon-xx" src="./assets/ballon.png" alt="Ballon">
+               <p class="lower-p color-white">Random</p>
+               <p class="large-text bold-text color-white">10</p>
+          </div>
+     </div>
+</body>
+
+</html>
