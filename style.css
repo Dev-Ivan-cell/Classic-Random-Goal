@@ -7,9 +7,18 @@ input{
     background-color: grey;
     
 }
-flexbox{
-    background-color: black;
+fieldset{
+    background-color:black;
+}
+strong{
+    background-color:white;
+}
+front {
+    background-color:#9dff00;
+}
+b{
+    background-color:rgba(79, 128, 0, 0.801);
 }
 display{
-    background-position: right;
+    background-color:white;
 }
